@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+	
+	<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -37,16 +38,16 @@
 
 <main>
     <section id="main">
-        <h3>Novedades</h3>
+        <h3>Contacto</h3>
 
-        <form method="" action="">
+        <form  id="formContact">
 <div> 
             <label for="nomApe"> Nombre y apellido *</label>
 <input type="text" name="nomApe" id="nomApe" required>
 </div>
 <div>
     <label for="mail"> Email *</label>
-    <input type="email" name="mail" id="mail" required>
+    <input type="email" name="mail" id="mail" >
 </div>
 <div>
     <label for="ws">WhatsApp </label>
@@ -59,15 +60,17 @@
 </div>
 
 <div>
-
-    <input type="submit" name="submit" value="Enviar">
+<button type="submit"> Enviar</button>
+    
 </div>
 
         </form>
 
+        <div id="mensaje" ></div>
     </section>
 </main>
 <!-- footer -->
 <%- include('./partial/footer') -%>
+<script src="../js/main.js"></script>
 </body>
 </html>

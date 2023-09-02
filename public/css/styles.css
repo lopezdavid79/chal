@@ -414,3 +414,7 @@ body .tituloform{
 .fotodeusuario{
     border-collapse: collapse;
 }
+
+.borrarForm{
+    display: none;
+}
